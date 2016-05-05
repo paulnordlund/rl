@@ -46,7 +46,7 @@ header {
 
 .greeting {
 	width: 92%;
-	margin: 50px auto;
+	margin: 0 auto;
 }
 
 .greeting-image {
@@ -60,6 +60,7 @@ header {
   float: left;
   font-size: 20px;
   text-align: left;
+  padding-right: 3%;
 }
 
 /**************************
@@ -143,7 +144,7 @@ footer {
 .footer-name {
   float: left;
   font-size: 14px;  
-  padding-top: 20px;
+  padding-top: 25px;
 }
 
 .back-to-top {
@@ -227,7 +228,6 @@ header {
 
 .greeting {
 	width: 90%;
-	margin: 50px auto;
 }
 
 .greeting-image {
@@ -237,10 +237,11 @@ header {
 }
 
 .greeting-headline {
-  width: 54%;
+  width: 55%;
   float: left;
   font-size: 32px;
   text-align: left;
+  padding-right: 4%;
 }
 
 /**************************
@@ -312,7 +313,7 @@ footer {
 
 .footer-name {
   font-size: 22px;  
-  padding-top: 40px;
+  padding-top: 45px;
 }
 
 .hide-on-mobile {

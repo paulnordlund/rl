@@ -69,8 +69,13 @@ header {
   margin: 0 0 30px 0;
   padding: 5px 0 30px 0;
   width: 100%;
-  overflow: auto;
   color: grey;
+}
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .greeting-image {
@@ -93,7 +98,6 @@ BODY
 
 .body-container {
   width: 100%;
-  overflow: auto;
   margin: 0 auto;
   padding-bottom: 90px;
   background-color: #FFF;
