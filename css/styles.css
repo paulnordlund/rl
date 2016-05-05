@@ -1,0 +1,186 @@
+  /* Styles for mobile screens
+(See responsive.css for media queries) */
+
+/**************************
+GENERAL
+**************************/
+
+/* site body*/
+body {
+  background-color: #FAFAFA;
+  color: #404040;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  text-align: center;
+  line-height: 1.4em; 
+  margin: 0 auto;
+  padding: 0;
+  }
+
+/* links */
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  }
+
+/**************************
+NAVIGATION
+**************************/
+
+.name {
+  text-align: center;
+  margin: 30px 0 45px 0;
+  color: dimgrey;
+  font-weight: 700;  
+}
+
+.main-nav {
+  text-align: center;
+  list-style: none;
+  margin: 5px 15px 15px 15px;
+  line-height: 1.4em;  
+}
+
+.main-nav li {
+  margin: 8px;
+  padding: 12px 0;
+  display: block;
+  background-color: #fff;
+  }
+
+/* nav link */
+.main-nav a {
+  text-transform: uppercase;
+  color: dimgrey;
+  font-size: 20px;
+  font-weight: bold;
+  }
+
+/* selected nav link */
+.main-nav a.selected, nav a:hover {
+  color: silver; }
+
+/**************************
+HEADING
+**************************/
+
+header {
+  margin: 0 0 30px 0;
+  padding: 5px 0 30px 0;
+  width: 100%;
+  overflow: auto;
+  color: grey;
+}
+
+.greeting-image {
+  padding: 50px 0 20px 0;
+  width: 68%;
+}
+
+.greeting-headline {
+  width: 90%;
+  margin: 0 auto;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.5em;
+}
+
+/**************************
+BODY
+**************************/
+
+.body-container {
+  width: 100%;
+  overflow: auto;
+  margin: 0 auto;
+  padding-bottom: 90px;
+  background-color: #FFF;
+}
+
+.body-section-header {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 65px 0 30px 0;
+}
+
+.portfolio-image {
+  padding: 45px 0 15px 0;
+  width: 90%;
+}
+
+.portfolio-header {
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.portfolio-content {
+  width: 84%;
+  margin: 0 auto;
+}
+
+/**************************
+FOOTER
+**************************/
+footer {
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.footer-content-container {
+}
+
+.footer-content-header {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 70px 0 20px 0; 
+}
+
+.footer-content {
+  font-size: 24px;
+  line-height: 1.5em;
+  padding-bottom: 20px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.padding-bold {
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+.footer-nav-container {
+  padding-top: 45px;
+  width: 90%;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.footer-nav {
+  text-decoration: none;
+  list-style: none;
+  border-top: solid 1px silver;
+  padding-top: 35px;
+  }
+
+.footer-name {
+  float: left;
+  font-size: 22px;
+  padding-top: 40px;
+}
+
+.back-to-top {
+  float: right;
+  font-size: 18px;  
+  text-decoration: none;
+  list-style: none;
+  color: #404040;
+  font-weight: bold; 
+}
+
+.hide-on-mobile {
+  display: none;
+}

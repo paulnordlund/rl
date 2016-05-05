@@ -1,0 +1,320 @@
+/* Styles for larger screens */
+
+/**************************
+Screen Size 768+
+**************************/
+
+@media screen and (min-width: 768px) {
+
+body {
+	font-size: 16px;
+}
+
+/**************************
+NAVIGATION
+**************************/
+
+.name {
+  margin: 60px 0 30px 0;
+}
+
+.main-nav {
+  margin: 5px 15px 50px 15px;
+  line-height: 1.4em;
+}
+
+.main-nav li {
+  display: inline-block;
+  background-color: transparent;
+  margin: 0;
+  padding: 0 20px;  
+  }
+
+/* nav link */
+.main-nav a {
+  font-size: 14px;   
+  }
+
+/**************************
+HEADING
+**************************/
+
+header {
+  margin: 0 0 30px 0;
+  padding: 5px 0 40px 0;
+}
+
+.greeting {
+	width: 92%;
+	margin: 50px auto;
+}
+
+.greeting-image {
+  float: right;
+  width: 42%;
+  padding: 0;
+}
+
+.greeting-headline {
+  width: 55%;
+  float: left;
+  font-size: 20px;
+  text-align: left;
+}
+
+/**************************
+BODY
+**************************/
+
+.body-container {
+  padding-bottom: 60px;
+}
+
+.body-section-header {
+  margin: 40px 0 0 0;
+  font-size: 13px;
+}
+
+.primary {
+  width: 49%;
+  float: left;
+  padding-left: 1%
+}
+
+.secondary {
+  width: 49%;
+  float: right;
+  padding-right: 1%
+}
+
+.portfolio-image {
+  padding: 50px 0 5px 0;
+}
+
+.portfolio-header {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.portfolio-content {
+  width: 77%;
+  margin: 0 auto;
+}
+
+/**************************
+FOOTER
+**************************/
+footer {
+  width: 100%;
+  margin-top: 20px;
+  padding-bottom: 85px;
+  font-size: 20px;
+}
+
+.footer-content-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.footer-content-header {
+  font-size: 14px;
+  padding: 50px 0 25px 0;
+}
+
+.footer-content {
+  font-size: 20px;
+  line-height: 1.4em;
+  padding-bottom: 30px;
+  margin: 0 auto;
+}
+
+.footer-nav-container {
+  padding-top: 45px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.footer-nav {
+  list-style: none;
+  border-top: solid 1px silver;
+  padding-top: 15px;
+  }
+
+.footer-name {
+  float: left;
+  font-size: 14px;  
+  padding-top: 20px;
+}
+
+.back-to-top {
+  display: none;
+}
+
+.hide-on-mobile {
+  float: right;
+  display: inline;
+  padding-left: 25px;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  list-style: none;
+}
+
+.no-color {
+  color: #404040;
+}
+
+/* selected nav link */
+.no-color:hover {
+  color: silver; }
+
+
+
+
+
+
+
+
+
+
+
+/**************************
+Screen Size 1024+
+**************************/
+
+@media screen and (min-width: 1024px) {
+
+
+body {
+	font-size: 22px;
+}
+
+/**************************
+NAVIGATION
+**************************/
+
+.name {
+  padding: 40px 0 40px 80px;
+  font-size: 40px;
+  float: left;
+}
+
+.main-nav {
+  line-height: 1.4em;
+  float: right;
+}
+
+.main-nav li {
+  display: inline-block;
+  background-color: transparent;
+  margin: 0;
+  padding: 80px 80px 0px 0px;  
+  }
+
+/* nav link */
+.main-nav a {
+  font-size: 18px;   
+  }
+
+/**************************
+HEADING
+**************************/
+
+header {
+  margin: 0 0 30px 0;
+  padding: 5px 0 60px 0;
+}
+
+.greeting {
+	width: 90%;
+	margin: 50px auto;
+}
+
+.greeting-image {
+  float: right;
+  width: 41%;
+  clear: both;
+}
+
+.greeting-headline {
+  width: 54%;
+  float: left;
+  font-size: 32px;
+  text-align: left;
+}
+
+/**************************
+BODY
+**************************/
+
+.body-container {
+  padding-bottom: 60px;
+  width: 95%;
+}
+
+.body-section-header {
+  margin: 80px 0 0 0;
+  font-size: 20px;
+}
+
+.primary, .secondary {
+  width: 32%;
+  float: left;
+}
+
+.portfolio-image {
+  padding: 50px 0 5px 0;
+}
+
+.portfolio-header {
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.portfolio-content {
+  width: 77%;
+  margin: 0 auto;
+}
+
+/**************************
+FOOTER
+**************************/
+footer {
+  margin-top: 20px;
+  padding-bottom: 45px;
+  font-size: 30px;
+}
+
+.footer-content-container {
+  width: 55%;
+}
+
+.footer-content-header {
+  font-size: 20px;
+  padding: 50px 0 25px 0;
+}
+
+.footer-content {
+  font-size: 30px;
+  padding-bottom: 50px;
+}
+
+.footer-nav-container {
+  padding-top: 45px;
+  width: 90%;
+}
+
+.footer-nav {
+  list-style: none;
+  border-top: solid 1px silver;
+  padding-top: 35px;
+  }
+
+.footer-name {
+  font-size: 22px;  
+  padding-top: 40px;
+}
+
+.hide-on-mobile {
+  font-size: 18px;
+}

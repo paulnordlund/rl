@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Responsive Layout</title>
+    <meta name="description" content="Responsive Layout Project">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700|' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+  <body id="top">  
+    
+    <header>
+      <section class="navigation">
+        <h1 class="name">Student Name</h1>
+        <nav class="main-nav">
+          <li><a href="#top">Home</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </nav>      
+      </section>
+
+      <section class="greeting">  
+        <img src="img/responsive-layout-profile.png" alt="image of student" class="greeting-image"/>
+
+        <p class="greeting-headline">Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
+      </section>
+    </header>
+
+    <div class="body-container" id="portfolio">
+      <p class="body-section-header">Portfolio</p>
+
+      <section class="primary">
+        <img src="img/portfolio-1.png" alt="image of marketing page" class="portfolio-image"/>
+        <p class="portfolio-header">Marketing Page</p>
+        <p class="portfolio-content">This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
+      </section>
+
+      <section class="secondary">
+        <img src="img/portfolio-2.png" alt="image of search page" class="portfolio-image"/>
+        <p class="portfolio-header">Search Page</p>
+        <p class="portfolio-content">This project searches through a specific database to find information that the user is trying to look up.</p>
+      </section>
+
+      <section class="primary">
+        <img src="img/portfolio-3.png" alt="image of travel app" class="portfolio-image"/>
+        <p class="portfolio-header">Travel App</p>
+        <p class="portfolio-content">This project compares travel times based on different transportation methods and tells you the best one.</p>
+      </section>
+
+      <section class="secondary">
+        <img src="img/portfolio-6.png" alt="image of map with marker" class="portfolio-image"/>
+        <p class="portfolio-header">Map of Favorite Spots</p>
+        <p class="portfolio-content">This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
+      </section>
+
+      <section class="primary">
+        <img src="img/portfolio-5.png" alt="image of photo gallery" class="portfolio-image"/>
+        <p class="portfolio-header">Photo Gallery</p>
+        <p class="portfolio-content">This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
+      </section>
+
+      <section class="secondary">
+        <img src="img/portfolio-4.png" alt="image of calculator" class="portfolio-image"/>
+        <p class="portfolio-header">Calculator</p>
+        <p class="portfolio-content">Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
+      </section>
+
+    </div>
+
+    <footer id="contact">
+
+      <section class="footer-content-container">
+        <p class="footer-content-header">Contact</p>
+        <p class="footer-content">If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
+        <p>Phone<span class="padding-bold">+1&nbsp(111)&nbsp555-1234</span></p>
+        <p>Email<span class="padding-bold">email@yoursite.com></span></p>
+      </section>
+      
+      <section class="footer-nav-container">
+        <h1 class="footer-name"><strong>Student name</strong></h1>
+        <ul class="footer-nav">
+          <li><a href="#top" class="back-to-top">Back To Top</a></li>
+          <li class="hide-on-mobile"><a href="#contact" class="no-color">Contact</a></li>
+          <li class="hide-on-mobile"><a href="#portfolio" class="no-color">Portfolio</a></li>
+          <li class="hide-on-mobile"><a href="#top" class="no-color">Home</a></li>
+        </ul>        
+      </section>
+
+    </footer>
+  
+  </body>
+</html>
