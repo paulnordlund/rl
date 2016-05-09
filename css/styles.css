@@ -1,4 +1,4 @@
-  /* Styles for mobile screens
+/* Styles for mobile screens
 (See responsive.css for media queries) */
 
 /**************************
@@ -101,6 +101,7 @@ BODY
   margin: 0 auto;
   padding-bottom: 90px;
   background-color: #FFF;
+  border-top: 5px solid lightblue;
 }
 
 .body-section-header {
@@ -123,6 +124,11 @@ BODY
 .portfolio-content {
   width: 84%;
   margin: 0 auto;
+}
+
+#skills {
+  background: lightblue;
+  border-top: 5px solid dimgrey;
 }
 
 /**************************

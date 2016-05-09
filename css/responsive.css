@@ -77,19 +77,17 @@ BODY
 }
 
 .primary {
-  width: 49%;
+  width: 50%;
   float: left;
-  padding-left: 1%
 }
 
 .secondary {
-  width: 49%;
+  width: 50%;
   float: right;
-  padding-right: 1%
 }
 
 .portfolio-image {
-  padding: 50px 0 5px 0;
+  padding: 50px 5px 5px 5px;
 }
 
 .portfolio-header {
@@ -100,6 +98,11 @@ BODY
 .portfolio-content {
   width: 77%;
   margin: 0 auto;
+}
+
+.halfquarter {
+  width: 50%;
+  float: left;
 }
 
 /**************************
@@ -167,17 +170,9 @@ footer {
 
 /* selected nav link */
 .no-color:hover {
-  color: silver; }
-
-
-
-
-
-
-
-
-
-
+  color: silver; 
+}
+}
 
 /**************************
 Screen Size 1024+
@@ -185,9 +180,9 @@ Screen Size 1024+
 
 @media screen and (min-width: 1024px) {
 
-
 body {
 	font-size: 22px;
+  max-width: 1700px;
 }
 
 /**************************
@@ -249,8 +244,8 @@ BODY
 **************************/
 
 .body-container {
-  padding-bottom: 60px;
   width: 95%;
+  border-top: 10px solid lightblue;
 }
 
 .body-section-header {
@@ -259,7 +254,7 @@ BODY
 }
 
 .primary, .secondary {
-  width: 32%;
+  width: 33%;
   float: left;
 }
 
@@ -275,6 +270,15 @@ BODY
 .portfolio-content {
   width: 77%;
   margin: 0 auto;
+}
+
+.halfquarter {
+  width: 25%;
+  float: left;
+}
+
+#skills {
+  border-top: 10px solid dimgrey;
 }
 
 /**************************
@@ -318,4 +322,5 @@ footer {
 
 .hide-on-mobile {
   font-size: 18px;
+}
 }
