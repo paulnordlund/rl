@@ -1,4 +1,4 @@
-  /* Styles for mobile screens
+/* Styles for mobile screens
 (See responsive.css for media queries) */
 
 /**************************
@@ -21,7 +21,7 @@ body {
 /* links */
 a {
   text-decoration: none;
-  text-transform: uppercase;
+  color: #404040;
   }
 
 /**************************
@@ -32,14 +32,12 @@ NAVIGATION
   text-align: center;
   margin: 30px 0 45px 0;
   color: dimgrey;
-  font-weight: 700;  
+  font-weight: 700;
+  font-size: 34px; 
 }
 
 .main-nav {
-  text-align: center;
-  list-style: none;
-  margin: 5px 15px 15px 15px;
-  line-height: 1.4em;  
+  margin: 0 20px 0 -20px;
 }
 
 .main-nav li {
@@ -66,7 +64,7 @@ HEADING
 **************************/
 
 header {
-  margin: 0 0 30px 0;
+  margin: 0;
   padding: 5px 0 30px 0;
   width: 100%;
   color: grey;
@@ -80,7 +78,7 @@ header {
 
 .greeting-image {
   padding: 50px 0 20px 0;
-  width: 68%;
+  width: 65%;
 }
 
 .greeting-headline {
@@ -101,6 +99,7 @@ BODY
   margin: 0 auto;
   padding-bottom: 90px;
   background-color: #FFF;
+  border-top: 5px solid lightblue;
 }
 
 .body-section-header {
@@ -111,17 +110,40 @@ BODY
 }
 
 .portfolio-image {
-  padding: 45px 0 15px 0;
+  padding: 55px 0 0 0;
   width: 90%;
 }
 
 .portfolio-header {
   font-size: 26px;
   font-weight: 400;
+  margin: 40px 0 30px 0;
 }
 
 .portfolio-content {
   width: 84%;
+  margin: 0 auto;
+  }
+
+.skills {
+  background: lightblue;
+  border-top: 5px solid dimgrey;
+  border-bottom: 5px solid silver;
+}
+
+.skills-image {
+  padding: 55px 0 10px 0;
+  max-height: 200px;
+}
+
+.skills-header {
+  font-size: 28px;
+  font-weight: 400;
+  margin: 10px 0 10px 0;
+}
+
+.skills-content {
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -130,10 +152,7 @@ FOOTER
 **************************/
 footer {
   width: 100%;
-  padding-bottom: 50px;
-}
-
-.footer-content-container {
+  padding-bottom: 30px;
 }
 
 .footer-content-header {
@@ -146,7 +165,7 @@ footer {
 .footer-content {
   font-size: 24px;
   line-height: 1.5em;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   width: 90%;
   margin: 0 auto;
 }
@@ -156,8 +175,12 @@ footer {
   margin-left: 15px;
 }
 
+.contact-info {
+  line-height: 2.5em;
+}
+
 .footer-nav-container {
-  padding-top: 45px;
+  padding-top: 50px;
   width: 90%;
   margin: 0 auto;
   display: inline-block;
