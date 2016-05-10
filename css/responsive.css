@@ -44,6 +44,10 @@ header {
   padding: 5px 0 40px 0;
 }
 
+.name {
+  font-size: 24px;
+}
+
 .greeting {
 	width: 92%;
 	margin: 0 auto;
@@ -56,11 +60,11 @@ header {
 }
 
 .greeting-headline {
-  width: 55%;
+  width: 54%;
   float: left;
   font-size: 20px;
   text-align: left;
-  padding-right: 3%;
+  padding-right: 4%;
 }
 
 /**************************
@@ -79,15 +83,20 @@ BODY
 .primary {
   width: 50%;
   float: left;
+  margin-left: 10px;
+  margin-right: -10px;
 }
 
 .secondary {
   width: 50%;
   float: right;
+  margin-right: 10px;
+  margin-left: -10px;
 }
 
 .portfolio-image {
-  padding: 50px 5px 5px 5px;
+  width: 90%;
+  padding: 50px 0 5px 0;
 }
 
 .portfolio-header {
@@ -96,13 +105,18 @@ BODY
 }
 
 .portfolio-content {
-  width: 77%;
+  width: 70%;
   margin: 0 auto;
+}
+
+.skills {
+  border-bottom: 10px solid silver;
 }
 
 .halfquarter {
   width: 50%;
   float: left;
+
 }
 
 /**************************
@@ -157,7 +171,7 @@ footer {
 .hide-on-mobile {
   float: right;
   display: inline;
-  padding-left: 25px;
+  padding-left: 55px;
   font-size: 12px;
   font-weight: bold;
   text-decoration: none;
@@ -256,6 +270,7 @@ BODY
 .primary, .secondary {
   width: 33%;
   float: left;
+  margin: 0;
 }
 
 .portfolio-image {
