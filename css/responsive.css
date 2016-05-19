@@ -107,6 +107,7 @@ BODY
 .portfolio-content {
   width: 70%;
   margin: 0 auto;
+  height: 66px;
 }
 
 .skills {
@@ -285,6 +286,7 @@ BODY
 .portfolio-content {
   width: 77%;
   margin: 0 auto;
+  height: 150px;
 }
 
 .halfquarter {
